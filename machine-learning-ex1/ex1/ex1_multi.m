@@ -119,7 +119,6 @@ beds_n = (3 - mu(3))/sigma(3);
 v=[1, area_n, beds_n];
 price =  v * theta;
 
-price
 % ============================================================
 
 fprintf(['Predicted price of a 1650 sq-ft, 3 br house ' ...
@@ -164,6 +163,8 @@ fprintf('\n');
 % ====================== YOUR CODE HERE ======================
 price = 0; % You should change this
 
+v=[1, 1650, 3];
+price =  v * theta;
 
 % ============================================================
 
